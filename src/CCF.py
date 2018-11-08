@@ -2,10 +2,10 @@ from os import path
 import sys
 
 sys.path.append(path.abspath(path.join(__file__, "../")))
-from CCFutils.DataIn import data_in
-from CCFutils.OutPut import out_put_data
-from CCFutils.FeatureProcess import fea_process
-from originalutils.WzjStacking2 import Stacking2
+from DataIn import data_in
+from OutPut import out_put_data
+from FeatureProcess import fea_process
+from WzjStacking2 import Stacking2
 from originalutils.WzjStacking import Stacking
 from CCFutils.Stacking import stacking
 from sklearn.model_selection import cross_val_score
